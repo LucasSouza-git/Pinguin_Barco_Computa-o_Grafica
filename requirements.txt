@@ -1,0 +1,4 @@
+pygame>=2.5
+PyOpenGL>=3.1.7
+numpy>=1.24
+Pillow>=10.0   # apenas para tools/gerar_texturas.py

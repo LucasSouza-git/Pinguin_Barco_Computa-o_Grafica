@@ -1,0 +1,4 @@
+Origem das texturas
+-------------------
+agua.png, madeira.png, neve.png : geradas proceduralmente pelo script tools/gerar_texturas.py
+(autoria da propria dupla; nenhuma imagem de terceiros foi utilizada).
