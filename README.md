@@ -15,12 +15,26 @@ e **somente depois da despedida** o barco deixa a doca. Depois de alguns segundo
 As ações são encadeadas por etapas (sem simulação física), conforme o enunciado.
 
 ## 3. Instalação e execução
+**Versão do Python: 3.12** (o projeto foi desenvolvido e testado nela; o Pygame pode não funcionar em versões mais novas, como a 3.14).
+
+Windows (PowerShell/CMD):
 ```
+py -3.12 -m venv .venv
+.venv\Scripts\activate
 pip install -r requirements.txt
 python tools/gerar_texturas.py      # só se a pasta imagens/ estiver vazia
 python main.py
 ```
-Requisitos: Python 3.10+, `pygame`, `PyOpenGL` e `numpy` (OpenGL 3.3 core ou superior).
+Linux/macOS:
+```
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python main.py
+```
+Verifique a versão ativa com `python --version` (deve mostrar 3.12.x).
+
+Requisitos: Python 3.12, `pygame` 2.6.x, `PyOpenGL` 3.1.x e `numpy` (OpenGL 3.3 core ou superior).
 Sem monitor (Linux): `xvfb-run -a python tools/captura.py` gera quadros PNG em `capturas/`.
 
 ### Sobre o framework (`fw/`)

@@ -1,4 +1,5 @@
-pygame>=2.5
-PyOpenGL>=3.1.7
-numpy>=1.24
+# Testado com Python 3.12 (use 3.12; o Pygame pode nao ter suporte em versoes mais novas)
+pygame>=2.6.1,<2.7
+PyOpenGL>=3.1.7,<3.2
+numpy>=1.26
 Pillow>=10.0   # apenas para tools/gerar_texturas.py
