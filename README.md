@@ -6,8 +6,8 @@ Trabalho prático desenvolvido para a disciplina de Computação Gráfica do cur
 
 | Integrante | Tema sorteado |
 |---|---|
-| Aluno 1 | Pinguim de brinquedo |
-| Aluno 2 | Barco a motor |
+| Lucas de Souza Carmo 242-009065 | Pinguim de brinquedo |
+| Carlos Eduardo Santos Almeida 231-001461 | Barco a motor |
 
 ## 2. Descrição da cena e interação
 
@@ -136,7 +136,7 @@ A pausa interrompe a animação dos personagens, mantendo a visualização e o c
 
 ## 6. Contribuições individuais
 
-### Aluno 1 — Modelagem e animação do pinguim
+### Lucas — Modelagem e animação do pinguim
 
 Responsável pelo desenvolvimento do modelo tridimensional do pinguim, incluindo:
 
@@ -146,7 +146,7 @@ Responsável pelo desenvolvimento do modelo tridimensional do pinguim, incluindo
 - Integração do personagem à sequência de interação.
 - Ajustes e testes relacionados à movimentação do pinguim.
 
-### Aluno 2 — Modelagem do barco e integração da cena
+### Carlos — Modelagem do barco e integração da cena
 
 Responsável pelo desenvolvimento do barco e pela integração dos elementos da cena, incluindo:
 
@@ -166,12 +166,13 @@ As texturas utilizadas no projeto foram geradas por meio do script `tools/gerar_
 
 ## 8. Declaração de uso de inteligência artificial
 
-Durante o desenvolvimento do projeto, ferramentas de inteligência artificial foram utilizadas pontualmente como apoio ao processo de aprendizagem e desenvolvimento.
+Durante o desenvolvimento do projeto, foi utilizada a ferramenta de inteligência artificial Claude (Anthropic) como recurso de apoio à programação.
 
-- **Ferramenta utilizada:** Claude (Anthropic).
-- **Finalidade:** esclarecimento de dúvidas técnicas, auxílio na compreensão de conceitos de programação gráfica e orientação na identificação de erros durante o desenvolvimento.
-- **Utilização:** apoio consultivo durante o desenvolvimento, sem substituir a implementação, os testes e a validação realizados pelos integrantes.
-- **Responsabilidade:** os integrantes são responsáveis pelo código final, pela verificação do funcionamento da aplicação e pela compreensão dos recursos gráficos implementados.
+A ferramenta foi utilizada pontualmente para auxiliar na geração de trechos iniciais de código e no esclarecimento de dúvidas relacionadas à implementação dos recursos gráficos.
+
+Os integrantes foram responsáveis pela análise, correção, adaptação e integração dos códigos gerados, bem como pela realização dos testes e pela validação do funcionamento da aplicação.
+
+O uso da ferramenta não substituiu o processo de aprendizagem e desenvolvimento dos integrantes, que permanecem responsáveis pelo código final e pela compreensão dos conceitos e recursos gráficos utilizados no projeto.
 
 ## 9. Shaders, atributos e uniforms
 
