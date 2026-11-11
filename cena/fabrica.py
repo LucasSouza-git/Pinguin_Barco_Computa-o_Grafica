@@ -1,7 +1,8 @@
 """ADAPTADOR entre o codigo da cena e o framework (fw/).
 
-Todo o codigo de cena (pinguim, barco, ambiente) so conhece estas funcoes. Para trocar de
-framework (por exemplo, o do livro), basta reimplementar este arquivo.
+Todo o codigo de cena (pinguim, barco, ambiente) so conhece estas funcoes. O framework em fw/
+e uma versao compacta, escrita pela dupla a partir da arquitetura do livro (STEMKOSKI; PASCALE,
+2022); para trocar de framework, basta reimplementar este arquivo.
 """
 import math
 import os
